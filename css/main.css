@@ -1,0 +1,106 @@
+/* Social buttons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-envelope {
+  background: #ff6600;
+  color: white;
+}
+
+.fa-github {
+  background: #444444;
+  color: white;
+}
+
+/* Other */
+	
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	width:100%;
+	height: auto;
+}
+
+#left {
+    float: left;
+    max-width: 25%;
+    margin: 0;
+    padding: 8em 4em 4em 4em;
+    background-position: left 0px;
+	background-color: #1f1815;
+	background-attachment: scroll,								fixed;
+	background-image: url("images/overlay.png"), url("images/bg.jpg");
+	background-position: top left,							top left;
+	background-repeat: repeat,								no-repeat;
+	background-size: auto,								auto 100%;
+	color: rgba(255, 255, 255, 0.5);
+	height: 100vh;
+	text-align:right;
+}
+
+section {
+    
+  background-color: white;
+	margin-left: 30%;
+	max-width: 54em;
+	padding: 8em 4em 4em 4em;
+	width: calc(100% - 35%);
+  text-align:center;
+	
+}
+
+ul li {
+    list-style-type:none;
+
+}
+
+ul.icons li {
+    display:inline-block;   
+}
+
+ul.copyright li {
+    display:inline-block;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+		color: #787878;
+		margin: 0 0 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+div.nav a {
+	font-size: 2.5em;
+  line-height: 40px;
+  margin-bottom: 32px;
+  font-weight: 100;
+  display: block;
+  color: white;
+}
+
+p {
+  padding:1em;
+}
